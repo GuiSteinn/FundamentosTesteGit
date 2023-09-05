@@ -1,7 +1,8 @@
 body {
     background-image: url("background.png");
-    background-size: 1350px;
     color: blue;
+    width: 95%;
+    background-position: center;
     background-repeat: no-repeat fixed content-box;
     background-attachment: fixed;
 }
@@ -15,4 +16,7 @@ ul {
 li {
     float: left;
     margin: 10px;
+}
+li p {
+    margin-left: 105px;
 }
