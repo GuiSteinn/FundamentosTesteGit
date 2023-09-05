@@ -1,0 +1,18 @@
+body {
+    background-image: url("background.png");
+    background-size: 1350px;
+    color: blue;
+    background-repeat: no-repeat fixed content-box;
+    background-attachment: fixed;
+}
+img {
+    width: 280px;
+}
+ul {
+    list-style-type: none;
+    display: inline;
+}
+li {
+    float: left;
+    margin: 10px;
+}
