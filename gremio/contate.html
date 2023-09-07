@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='UTF-8'>
+    <meta name="description" content="Página do Grêmio">
+    <meta name="keywords" content="html, tags, vscode, css">
+    <meta name="author" content="Felipe Macedo">
+    <link rel="icon" type="png" href="logo.png">
+    <title>Grêmio Football Porto Alegrense</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <img id="logo" src="logo-gremio.png"><br>
+    <ul>
+        <li><a href="index.html">Página Inicial</a></li>
+        <li><a href="elenco.html">Elenco</a></li>
+        <li><a href="contate.html">Contate-nos</a></li>
+    </ul><br><br><br>
+    <form method="post">
+        <label for="com">Com quem deseja falar?</label><br>
+        <select name="com" id="com">
+            <option value="comercial">Comercial</option>
+            <option value="ouvidoria">Ouvidoria</option>
+            <option value="outro">Outro</option>
+        </select><br><br>
+        <label for="nome">Nome</label><br>
+        <input type="text" id="nome" name="nome" required placeholder="Digite seu nome"><br><br>
+        <label for="email">E-mail</label><br>
+        <input type="email" id="email" name="email" required placeholder="Digite seu email"><br><br>
+        <label for="telefone">Telefone</label><br>
+        <input type="text" id="telefone" name="telefone" required placeholder="Digite seu telefone"><br><br>
+        <label for="mensagem">Mensagem</label><br>
+        <textarea id="mensagem" required placeholder="Digite sua mensagem" name="mensagem" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="Enviar"> 
+    </form>
+</body>
+</html>
