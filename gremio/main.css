@@ -1,44 +1,53 @@
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url("background.png");
-    color: blue;
-    width: 95%;
-    background-position: center;
-    background-repeat: no-repeat fixed content-box;
-    background-attachment: fixed;
-}
-img {
-    width: 250px;
-    height: 280px;
-}
-select{
-    border: solid darkgrey 2px;
-}
-textarea {
-    border: solid darkgrey 2px;
-}
-input {
-    border: solid darkgrey 2px; 
-}
-#logo {
-    width: 270px;
-    height: 100px;
-}
-ul {
-    list-style-type: none;
-    display: inline;
-}
-li {
-    float: left;
-    margin: 10px;
-}
-a {
-    color:white;
-    text-decoration: none;
-}
-a:hover {
-    color: blue;
-}
-li p {
-    margin-left: 100px;
-}
+    font-family : 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image : url("background.png");
+    color : blue;
+    width : 95%;
+    background-position : center;
+    background-attachment : fixed;
+    }
+    h1{
+        text-align: center;
+    }
+    select {
+    color : grey;
+    }
+    img {
+    width : 250px;
+    height : 280px;
+    }
+    select {
+    border : darkgrey solid 2px;
+    }
+    textarea {
+    border : darkgrey solid 2px;
+    }
+    input {
+    border : darkgrey solid 2px;
+    }
+    #logo {
+    width : 270px;
+    height : 100px;
+    }
+    ul {
+    list-style-type : none;
+    display : inline;
+    }
+    li {
+    float : left;
+    margin : 10px;
+    }
+    #campo {
+    margin-left : 20px;
+    background-image : url(campo.png);
+    width : 1200px;
+    height : 1659px;
+    }
+    a {
+    color : white;
+    text-decoration : none;
+    }
+    a:hover {
+    color : blue;
+    }
+    
