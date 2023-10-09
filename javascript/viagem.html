@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagem</title>
+    <script>
+        function viagem() {
+            let destino = (document.getElementById('destino').value);
+            let km = parseFloat(document.getElementById('km').value);
+            let litros = parseFloat(document.getElementById('litros').value);
+            let valor = parseFloat(document.getElementById('valor').value);
+            let resultado = 'Em sua viagem para ' + destino + ' você percorreu ' + km + ' quilômetros e gastou ' + litros.toFixed(2) + ' litros de combustível. ';
+            let aviso = 'Seu carro fez ' + (km/litros).toFixed(2) + 'km/litros e sua viagem teve um custo total de R$' + (litros*valor).toFixed(2) + ', com o custo aproximado de R$' + (litros*valor/km).toFixed(2) + ' por quilômetro. ';
+            document.getElementById('resultado').innerHTML = resultado;
+            document.getElementById('aviso').innerHTML = aviso;
+        }
+    </script>
+</head>
+<body>
+    <a href="index.html">Voltar</a>
+    <form>
+        <h1> Viagem </h1>
+        <label> Cidade destino: </label>
+        <input type="text" id="destino" size="50" required><br>
+        <label> Quilômetros percorridos: </label>
+        <input type="number" id="km" required><br>
+        <label> Litros de Combustivel: </label>
+        <input type="number" id="litros" step='0.01' required><br>
+        <label> Valor do litro: </label>
+        <input type="number" id="valor" step='0.01' required><br><br>
+        <button onclick="viagem()" type="button">Calcular viagem</button><br>
+    </form>
+    <p id="resultado"></p>
+    <p id="aviso"></p>
+</body>
+</html>
