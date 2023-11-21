@@ -2,9 +2,9 @@ body{
     color: black; background-color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
     background-color: bisque;
- }  
+ }
 
- ul{
+ul{
     display: flex;
     justify-content: left; 
     list-style-type: none;
@@ -29,7 +29,6 @@ nav {
     margin-left: 10px;
     margin-right: 50px;
 }
-
 ul#figure {
     display: flex;
 }
@@ -42,50 +41,86 @@ figure {
     border:1px solid black;
     box-shadow:5px 5px 3px rgba(0,0,0,0.7);
     -moz-transform:rotate(-5deg);
+    transition: transform .2s;
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+img#imagem {
+    border: solid 1px;
+    transition: transform .2s;
+}
+img#imagem:hover {
+    transform: scale(1.3);
+}
+#historia {
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    color: rgb(48, 1, 1);
+    border: solid 1px gray;
+    background-image: url(backgroundhistoria.png);
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    margin: 50px;
+    box-shadow:5px 5px 3px rgba(0,0,0,0.7);
+    -moz-transform:rotate(-5deg);
+}
+.wraper{
+margin: 0;
+box-sizing: border-box;
+max-width: 760px; 
+margin: 10px auto; 
+background-color: white;
+padding: 20px;
+display: flex;
+border-radius: 8px;
+flex-wrap: wrap;
+}
 
-  .wraper{
-      max-width: 760px; 
-      margin: 10px auto; 
-      background-color: white;
-      padding: 20px;
-      display: flex;
-      border-radius: 8px;
-      flex-wrap: wrap;
-  }
+.dias-da-semana{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+display: flex; 
+width: 100%;
+flex-wrap: wrap;
+}
 
-  .dias-da-semana{
-      display: flex; 
-      width: 100%;
-      flex-wrap: wrap;
-  }
+.dias-da-semana span{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: #F86078;
+font-weight: bold;
+display: inline-block;
+width: 14.2%;
+}
 
-  .dias-da-semana span{
-      color: #F86078;
-      font-weight: bold;
-      display: inline-block;
-      width: 14.2%;
-  }
+.numero-dias{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+display: flex; 
+width: 100%;
+flex-wrap: wrap;
+}
 
-  .numero-dias{
-      display: flex; 
-      width: 100%;
-      flex-wrap: wrap;
-  }
+.numero-dias span{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+display: inline-block;
+width: 14.2%;
+margin: 8px 0;
+color: #ccc;
+}
 
-  .numero-dias span{
-      display: inline-block;
-      width: 14.2%;
-      margin: 8px 0;
-      color: #ccc;
-  }
-
-  .mes-anterior{
-      opacity: 0.5;
-  }
+.mes-anterior{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+opacity: 0.5;
+}
   
