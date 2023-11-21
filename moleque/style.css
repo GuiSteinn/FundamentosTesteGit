@@ -43,3 +43,49 @@ figure {
     box-shadow:5px 5px 3px rgba(0,0,0,0.7);
     -moz-transform:rotate(-5deg);
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .wraper{
+      max-width: 760px; 
+      margin: 10px auto; 
+      background-color: white;
+      padding: 20px;
+      display: flex;
+      border-radius: 8px;
+      flex-wrap: wrap;
+  }
+
+  .dias-da-semana{
+      display: flex; 
+      width: 100%;
+      flex-wrap: wrap;
+  }
+
+  .dias-da-semana span{
+      color: #F86078;
+      font-weight: bold;
+      display: inline-block;
+      width: 14.2%;
+  }
+
+  .numero-dias{
+      display: flex; 
+      width: 100%;
+      flex-wrap: wrap;
+  }
+
+  .numero-dias span{
+      display: inline-block;
+      width: 14.2%;
+      margin: 8px 0;
+      color: #ccc;
+  }
+
+  .mes-anterior{
+      opacity: 0.5;
+  }
+  
