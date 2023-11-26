@@ -13,6 +13,10 @@ ul{
 li {
     margin-right: 50px;
 }
+#mapa{
+    display: flex;
+    justify-content: center;
+}
 nav a:hover{
     color: black;
 }
