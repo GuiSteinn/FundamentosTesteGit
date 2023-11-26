@@ -28,8 +28,14 @@ nav {
     margin-left: 10px;
     margin-right: 50px;
 }
-ul#figure {
+ul#figureul {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+li#figureli {
+    flex-basis: 100%;
+    margin-bottom: 20px;
 }
 figure {
     position: relative;
