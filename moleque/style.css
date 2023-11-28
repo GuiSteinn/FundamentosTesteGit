@@ -13,7 +13,7 @@ ul{
 li {
     margin-right: 50px;
 }
-#mapa{
+#centro{
     display: flex;
     justify-content: center;
 }
@@ -35,24 +35,27 @@ nav {
 ul#figureul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-around; 
+    -ms-flex-direction: column;
 }
 li#figureli {
     flex-basis: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
+    justify-content: center; 
+    display: flex;
 }
 figure {
     position: relative;
     text-align: center;    
     background-color:white;
-    width:500px;
+    width:800px;
     margin-right: 0px;
     padding: 15px;
     font-family:'Comic Sans MS',cursive;
     border:1px solid black;
     box-shadow:5px 5px 3px rgba(0,0,0,0.7);
     -moz-transform:rotate(-5deg);
-    transition: transform .3s ease-out;
+    transition: transform .3s ease-out; 
 }
 
 img#imagem {
@@ -71,7 +74,6 @@ img#imagem:hover {
     border: solid 1px gray;
     background-image: url(backgroundhistoria.png);
     background-color: #cccccc;
-    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -136,4 +138,4 @@ img#imagem:hover {
     box-sizing: border-box;
     opacity: 0.5;
 }
-  
+   
